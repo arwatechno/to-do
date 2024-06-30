@@ -1,0 +1,136 @@
+main{
+    margin : 0;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+#ph{
+    border:2px solid #086400;
+    border-radius: 20px;
+    box-shadow: 10px 10px #97ff8e;
+    margin: 20px;
+    background-color: #f9f9f9;
+}
+
+img{
+    width: 300px;
+    border-radius: 50%;
+    padding: 20px;
+}
+h2{
+    text-align: center;
+    font-size: 35px;
+}
+/* Reset default margin and padding */
+
+.container {
+    max-width: 800px; /* Increased max-width for better spacing */
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    background-color: #014612;
+    color: #086400;
+    padding: 1rem 0;
+    margin-bottom: 20px; /* Added margin to separate header from content */
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #086400;
+    padding: 10px 15px;
+    transition: background-color 0.3s ease;
+}
+
+nav ul :hover {
+    background-color: #086400;
+    color:#15ff00;
+}
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #ffffff;
+    color: #086400;
+    border: 1px solid #086400;
+    border-radius: 4px;
+    cursor: pointer;
+
+}
+
+button:hover {
+    background-color: #086400;
+    color: #fff;
+    
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 5px;
+    background-color: #f9f9f9;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+  font-size:30px;
+}
+#nav{
+    font-size:20px;
+
+}
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f2f2f2;
+    text-align: center;
+    padding: 20px;
+    background-image: url(https://img1.picmix.com/output/stamp/normal/9/7/0/9/1889079_0193a.gif);
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
+footer {
+    
+    color: #086400;
+    padding: 10px 0;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+}
